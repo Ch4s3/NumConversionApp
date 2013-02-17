@@ -75,7 +75,7 @@ public class Conv {
     {
         if ( number < Math.pow(base, position + 1) )
         {
-            return symbols[(int) (number / (long)Math.pow(base, position))] + result;
+            return symbols[(int) (number / (long)Math.pow(base, position))] + result;// double check
         }
         else
         {
